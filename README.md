@@ -1,16 +1,15 @@
-<<<<<<< HEAD
-# Weather-App
-=======
-# React + Vite
+# React Weather App
+This is a web app developed as a final project for SheCodes React using React.js. It allows users to search for the weather conditions of any city in the world and provides current weather information. The app fetches weather data using the SheCodes Weather API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technologies & Tools Used
+- React.js
+- HTML
+- CSS
+- JavaScript
+- Weather API
 
-Currently, two official plugins are available:
+# API Info
+- URL: https://api.openweathermap.org/data/2.5/weather?q={CITY_NAME}&appid={API_KEY}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> ea189dd (first commit)
+# Demo
+A live demo of the React Weather App is available at <a href="https://weather-app-git-main-ashish-kumar-guptas-projects-7b722686.vercel.app/">Link To Live Video </a>
