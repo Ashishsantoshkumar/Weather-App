@@ -12,4 +12,4 @@ This is a web app developed as a final project for SheCodes React using React.js
 - URL: https://api.openweathermap.org/data/2.5/weather?q={CITY_NAME}&appid={API_KEY}
 
 # Demo
-A live demo of the React Weather App is available at <a href="https://weather-app-git-main-ashish-kumar-guptas-projects-7b722686.vercel.app/">Link To Live Video </a>
+- A live demo of the React Weather App is available at <a href="https://weather-app-git-main-ashish-kumar-guptas-projects-7b722686.vercel.app/">Link To Live Video </a>
