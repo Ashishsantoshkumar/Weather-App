@@ -14,7 +14,7 @@ function Weather() {
         setError(null);
 
         fetch(
-            `http://api.weatherapi.com/v1/forecast.json?key=8eca5991536b4b78b4775609252407&q=${cityName}&days=3&aqi=no&alerts=no`
+            `https://api.weatherapi.com/v1/forecast.json?key=8eca5991536b4b78b4775609252407&q=${cityName}&days=3&aqi=no&alerts=no`
         )
             .then((response) => response.json())
             .then((data) => {
