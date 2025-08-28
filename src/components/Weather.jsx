@@ -25,6 +25,7 @@ function Weather() {
                     changeBackground(data.current.condition.text);
                 }
                 setLoading(false);
+                setInput("");
             })
             .catch(() => {
                 setError("Something went wrong!");
@@ -67,7 +68,9 @@ function Weather() {
                         className="flex-grow px-4 py-2 rounded-lg border border-white/50 bg-white/20 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-yellow-300"
                     />
                     <button
-                        onClick={() => fetchData(input)}
+                        onClick={() => {
+                            fetchData(input);
+                        setInput("");}}
                         className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded-lg hover:bg-yellow-500 transition"
                     >
                         Search
